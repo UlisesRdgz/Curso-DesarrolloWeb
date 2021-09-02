@@ -1,0 +1,63 @@
+:root {
+    --primario: #23265B;
+    --primarioObscuro: #9192AC;
+    --secundario: #72C0DD;
+    --secudarioObscuro: #4c8397;
+    --blanco: #FFF;
+    --negro: #000;
+
+    --fuentePrincipal: 'Staatliches', cursive; 
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box; /* Hack para Box Model */
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}  
+
+/* Globales */
+body {
+    background-color: var(--primario);
+    font-size: 1.6rem; /* 1rem = 10px*/
+    line-height: 1.5;
+}
+
+p {
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--blanco);
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+.contenedor {
+    max-width: 120rem;
+    margin: auto;
+}
+
+h1,h2,h3 {
+    text-align: center;
+    color: var(--secundario);
+    font-family: var(--fuentePrincipal);
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3.2rem;
+}
+
+h3 {
+    font-size: 2.4rem;
+}
