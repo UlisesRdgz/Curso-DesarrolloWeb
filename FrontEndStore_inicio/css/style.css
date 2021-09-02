@@ -36,7 +36,7 @@ a {
 }
 
 img {
-    width: 100%;
+    maxwidth: 100%;
 }
 
 .contenedor {
@@ -61,3 +61,46 @@ h2 {
 h3 {
     font-size: 2.4rem;
 }
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.header__logo {
+    margin: 3rem 0;
+}
+
+/* Footer */
+.footer {
+    background-color: var(--primarioObscuro);
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+.footer__texto {
+    text-align: center;
+    font-family: var(--fuentePrincipal);
+    font-size: 2.2rem;
+}
+
+/* Navegación */
+.navegacion {
+    background-color: var(--primarioObscuro);
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.navegacion__enlace {
+    font-family: var(--fuentePrincipal);
+    color: var(--blanco);
+    font-size: 3rem;
+}
+
+.navegacion__enlace--activo, .navegacion__enlace:hover {
+    color: var(--secundario);
+}
+
