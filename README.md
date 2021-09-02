@@ -3,7 +3,7 @@
 
 - Primera página (SitioFreelancer): https://desarrolloweb-primera.netlify.app/
 
-- Segunda página (FrontEndStore): 
+- Segunda página (FrontEndStore): https://desarrolloweb-segunda.netlify.app/
 
 
 
