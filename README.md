@@ -1,4 +1,9 @@
 # Repositorio del curso de Desarrollo web.
 ## Páginas web
 
-Primera: https://desarrolloweb-primera.netlify.app/
+- Primera página (SitioFreelancer): https://desarrolloweb-primera.netlify.app/
+
+- Segunda página (FrontEndStore): 
+
+
+

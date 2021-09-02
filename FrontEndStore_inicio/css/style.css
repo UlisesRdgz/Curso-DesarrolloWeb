@@ -36,7 +36,7 @@ a {
 }
 
 img {
-    maxwidth: 100%;
+    width: 100%;
 }
 
 .contenedor {
@@ -91,7 +91,7 @@ h3 {
     padding: 1rem 0;
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 2rem; /* Separación forma nueva */
 }
 
 .navegacion__enlace {
@@ -104,3 +104,23 @@ h3 {
     color: var(--secundario);
 }
 
+/* Productos */
+.producto {
+
+}
+
+.producto__imagen {
+
+}
+
+.producto__informacion {
+
+}
+
+.producto__nombre {
+
+}
+
+.producto__precio {
+    
+}
