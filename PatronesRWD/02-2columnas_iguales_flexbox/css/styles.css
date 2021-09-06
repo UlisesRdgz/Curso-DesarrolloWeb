@@ -39,3 +39,14 @@ h1 {
 }
 
 /** CODIGO AQUI **/
+@media(min-width: 768px) {
+    .dos-columnas {
+        display: flex;
+        justify-content: space-between;
+        /* gap: 1rem - Lo mismo pero no tiene un gran soporte */
+    }
+
+    .entrada-blog {
+        flex-basis: calc(50% - 1rem);
+    }
+}

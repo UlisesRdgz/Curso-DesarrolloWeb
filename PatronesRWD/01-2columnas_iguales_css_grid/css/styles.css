@@ -15,7 +15,7 @@ body {
 }
 
 img {
-    max-width: 100%;
+    max-width: 100%
 }
 
 h1 {
@@ -39,3 +39,11 @@ h1 {
 }
 
 /** CODIGO AQUI **/
+
+@media(min-width: 768px) {
+    .dos-columnas{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr );
+        column-gap: 2rem;
+    }
+}
