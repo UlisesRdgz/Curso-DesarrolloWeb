@@ -255,7 +255,7 @@ img {
 
 /* Entrada */
 @media(min-width: 1334px) {
-    .entrada__imagen{
+    .entrada__imagen--blog{
         width: 100%;
         height: 82rem;
     }
