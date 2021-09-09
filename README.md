@@ -5,5 +5,7 @@
 
 - Segunda página (FrontEndStore): https://desarrolloweb-segunda.netlify.app/
 
+- Tecera página (Blog Café): https://desarrolloweb-tercera.netlify.app/
+
 
 
