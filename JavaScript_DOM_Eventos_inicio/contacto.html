@@ -2,11 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BlogDeCafé</title>
+    
+    <!-- Preload -->
+    <link rel="preload" href="css/normalize.css" as="style">
     <link rel="stylesheet" href="css/normalize.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+
+    <link rel="preload" href="css/style.css" as="style">
     <link rel="stylesheet" href="css/style.css">
+    
 </head>
 <body>
 
@@ -23,11 +32,12 @@
                     <a href="cursos.html" class="navegacion__enlace">Cursos</a>
                     <a href="contacto.html" class="navegacion__enlace">Contacto</a>
                 </nav>
+
             </div>
         </div>
 
         <div class="header__texto">
-            <h2 id="heading" class="no-margin">Blog de café con consejos y cursos</h2>
+            <h2 class="no-margin">Blog de café con consejos y cursos</h2>
             <p class="no-margin">Aprende de los expertos con las mejores recetas y consejos</p>
         </div>
     </header>
@@ -44,32 +54,32 @@
                     class="campo__field"
                     type="text" 
                     placeholder="Tu Nombre" 
-                    id="nombre"
-                >
+                    id="nombre">
             </div>
+
             <div class="campo">
                 <label class="campo__label" for="email">E-mail</label>
                 <input 
                     class="campo__field"
                     type="email" 
-                    placeholder="Tu E-mail" 
-                    id="email"
-                >
+                    placeholder="Tu Correo" 
+                    id="email">
             </div>
+
             <div class="campo">
                 <label class="campo__label" for="mensaje">Mensaje</label>
-                <textarea 
-                    class="campo__field campo__field--textarea"
-                    id="mensaje"
-                ></textarea>
+                <textarea
+                    class="campo__field campo__field--textarea" 
+                    id="mensaje">
+                </textarea>
             </div>
 
             <div class="campo">
-                <input type="submit" value="Enviar" class="boton boton--primario">
+                <input type="submit" value="Enviar" class="boton boton--primario izquierda">
             </div>
+
         </form>
 
-        
     </main>
 
     <footer class="footer">
@@ -84,9 +94,12 @@
                     <a href="cursos.html" class="navegacion__enlace">Cursos</a>
                     <a href="contacto.html" class="navegacion__enlace">Contacto</a>
                 </nav>
+
             </div>
         </div>
     </footer>
+    
     <script src="js/modernizr.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 </html>

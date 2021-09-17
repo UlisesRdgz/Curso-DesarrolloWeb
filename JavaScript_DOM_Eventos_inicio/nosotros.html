@@ -2,11 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BlogDeCafé</title>
+
+    <!-- Preload -->
+    <link rel="preload" href="css/normalize.css" as="style">
     <link rel="stylesheet" href="css/normalize.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+
+    <link rel="preload" href="css/style.css" as="style">
     <link rel="stylesheet" href="css/style.css">
+    
 </head>
 <body>
 
@@ -23,6 +32,7 @@
                     <a href="cursos.html" class="navegacion__enlace">Cursos</a>
                     <a href="contacto.html" class="navegacion__enlace">Contacto</a>
                 </nav>
+
             </div>
         </div>
 
@@ -37,13 +47,11 @@
 
         <div class="sobre-nosotros">
             <div class="sobre-nosotros__imagen">
-                <img src="img/nosotros.jpg" alt="imagen nosotros">
+                <img loading="lazy" src="img/nosotros.jpg" alt="imagen nosotros">
             </div>
 
             <div class="sobre-nosotros__texto">
-                <p>Pellentesque lacus orci, mattis cursus est in, finibus sagittis mi. Sed iaculis elit et porta luctus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas lacinia est vitae eros posuere, non commodo justo viverra. Sed finibus id elit sit amet egestas. Nullam ac urna odio. Fusce vestibulum venenatis quam in scelerisque. Maecenas ultricies ultricies velit, non suscipit enim. Vivamus massa velit, lobortis fringilla laoreet in, suscipit vitae velit. Etiam at orci euismod magna rhoncus luctus. Curabitur viverra est ut elit gravida rutrum. Nullam eget viverra enim. Quisque vitae varius urna.</p>
-
-                <p>Maecenas commodo erat ac elit elementum, ac eleifend arcu gravida. Donec commodo auctor augue, eget tempor dui fermentum in. Duis non enim vitae metus accumsan vehicula. Pellentesque egestas diam ut ante aliquet, sit amet fringilla odio interdum. In nec odio nec turpis faucibus sagittis. Sed quis tellus nec ante luctus aliquam sit amet vel mauris. Nunc vitae facilisis mauris, posuere tristique arcu. Praesent nisi urna, venenatis non laoreet</p>
+                <p class="no-margin">Suspendisse pellentesque pretium sollicitudin. Proin euismod, eros ac ornare viverra, massa neque egestas mauris, vel accumsan tellus velit eget metus. Donec finibus sollicitudin tortor, vitae lobortis mi rutrum ut. Duis posuere tortor sit amet tellus posuere, et imperdiet magna sodales. Sed at mollis lacus, sit amet ultrices metus. Quisque in porttitor nulla. Praesent at pharetra velit. Aliquam faucibus nisl ut justo dignissim pretium. Etiam scelerisque nisi non mattis ultricies. Nunc in sapien ultrices sem pulvinar convallis id et mauris. Aliquam sodales porta neque quis congue.</p>
             </div>
         </div>
     </main>
@@ -60,6 +68,7 @@
                     <a href="cursos.html" class="navegacion__enlace">Cursos</a>
                     <a href="contacto.html" class="navegacion__enlace">Contacto</a>
                 </nav>
+
             </div>
         </div>
     </footer>
